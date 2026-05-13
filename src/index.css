@@ -1,0 +1,33 @@
+@import "tailwindcss";
+
+:root {
+  --quiz-dark: #1e123b;
+  --quiz-purple: #6b3fa0;
+  --quiz-yellow: #f4d03f;
+}
+
+.bg-quiz-dark {
+  background-color: var(--quiz-dark);
+}
+
+.bg-quiz-purple {
+  background-color: var(--quiz-purple);
+}
+
+.text-quiz-yellow {
+  color: var(--quiz-yellow);
+}
+
+.bg-quiz-yellow {
+  background-color: var(--quiz-yellow);
+}
+
+.rounded-t-quiz {
+  border-top-left-radius: 2rem;
+  border-top-right-radius: 2rem;
+}
+
+.rounded-b-quiz {
+  border-bottom-left-radius: 2rem;
+  border-bottom-right-radius: 2rem;
+}
